@@ -6,7 +6,7 @@
 #    By: vmoreau <vmoreau@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/01/26 19:00:16 by vmoreau           #+#    #+#              #
-#    Updated: 2020/01/26 20:25:43 by vmoreau          ###   ########.fr        #
+#    Updated: 2020/01/26 20:38:00 by vmoreau          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -45,3 +45,4 @@ echo "\033[1;34mIf you want to check several fd GNL press enter, else ctr + c to
 gcc -Wall -Werror -Wextra -D BUFFER_SIZE=42 mains/main_mfd.c get_next_line.c get_next_line_utils.c && ./a.out
 
 echo "\033[33mEnd of Tests\033[m"
+echo "\033[1;34mmade by vmoreau\033[m"
